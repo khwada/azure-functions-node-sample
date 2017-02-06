@@ -19,7 +19,7 @@ Azure Functionsサンプル（node.js）
 - 関数を２つ作成
   + blob-trigger-js
     - JavaScript -> BlobTrigger-JavaScript
-    - パスは"trigger/*.txt"、ストレージアカウント接続で作成したストレージを選択
+    - パスは"trigger/{name}.txt"、ストレージアカウント接続で作成したストレージを選択
     - 統合 -> 新しい出力 -> Azure Queue Storageで、キュー名には"skype-message"を指定
   + queue-trigger-js
     - JavaScript -> QueueTrigger-JavaScript
