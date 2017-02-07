@@ -40,7 +40,7 @@ https://docs.microsoft.com/ja-jp/azure/app-service-web/app-service-deploy-local-
 ### デプロイ
 - ソースの編集
   + 各ディレクトリの中身をコピー
-  + npm installを実行
+  + npm installを実行（もしくは、Azureにpushしてから、開発者コンソールから入ってnpm install）
 - デプロイ
   + git add .
   + git commit -am 'initial commit'
