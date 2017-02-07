@@ -4,7 +4,7 @@ module.exports = function (context, myBlob) {
 
   var message = {
     'conversationId': process.env.CONVERSATION_ID,
-    'message': data
+    'message': myBlob
   };
 
   context.bindings.outputQueueItem = JSON.stringify(message);
